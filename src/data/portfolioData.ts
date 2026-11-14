@@ -60,7 +60,7 @@ export interface ContactData {
 // 1. INTRO / "WHAT I DO" SECTION
 export const INTRO_DATA: IntroData = {
   heading: "What I do",
-  bannerImage: "/media/uploads/2026/02/25/banner-website_BvZ3W4G.png",
+  bannerImage: "./media/uploads/2026/02/25/banner-website_BvZ3W4G.png",
   paragraphs: [
     "I start by viewing content through the learner’s eyes to identify 'newcomer' friction points and ask subject matter experts the right questions.",
     "I then transform that complex data into engaging, professional solutions that simplify learning and directly support job performance. Hope you check out my samples!"
@@ -72,7 +72,7 @@ export const SAMPLES_DATA: SampleItem[] = [
   {
     id: "pause-protect-report",
     title: "Pause. Protect. Report.",
-    thumbnail: "/assets/aistudio/3_stranger_0e1043d3.jpeg",
+    thumbnail: "./assets/aistudio/3_stranger_0e1043d3.jpeg",
     teaser: "An interactive, scenario-based cybersecurity learning experience that helps learners recognize potential security risks and practice making appropriate reporting decisions through realistic situations and immediate feedback.",
     modalDescription: "An interactive, scenario-based cybersecurity learning experience that helps learners recognize potential security risks and practice making appropriate reporting decisions through realistic situations and immediate feedback.",
     embedUrl: "https://workingdad.github.io/portfolio-files/",
@@ -85,7 +85,7 @@ export const SAMPLES_DATA: SampleItem[] = [
   {
     id: "converting-textbook-content-to-elearning",
     title: "Converting textbook content to eLearning",
-    thumbnail: "/media/uploads/2022/11/15/sample_sat_thumbnail.png",
+    thumbnail: "./media/uploads/2022/11/15/sample_sat_thumbnail.png",
     teaser: "This animated and interactive demonstration is based on a scene from a larger eLearning project I worked on.",
     modalDescription: "For an educational publishing company: The topic of this project was standardized test-taking strategies. After writing a detailed design document, I submitted this animated scene to the client, as an example, or Proof of Concept (POC). The POC won the client over, and led to my employer getting the contract for the entire project.",
     embedUrl: "https://player.vimeo.com/video/427582893",
@@ -98,7 +98,7 @@ export const SAMPLES_DATA: SampleItem[] = [
   {
     id: "business-uses-of-databases-part-1",
     title: "Business Uses of Databases: Part 1",
-    thumbnail: "/media/uploads/2022/11/15/database1_thumb.png",
+    thumbnail: "./media/uploads/2022/11/15/database1_thumb.png",
     teaser: "I did this instructional video for an MBA course, Intro to Databases.",
     modalDescription: "Business Uses of Databases: Part 1 — Published with permission from Unext.com.",
     embedUrl: "https://player.vimeo.com/video/427581422",
@@ -111,7 +111,7 @@ export const SAMPLES_DATA: SampleItem[] = [
   {
     id: "business-uses-of-databases-part-2",
     title: "Business Uses of Databases: Part 2",
-    thumbnail: "/media/uploads/2022/11/15/database2_thumb.png",
+    thumbnail: "./media/uploads/2022/11/15/database2_thumb.png",
     teaser: "I did this instructional video for an MBA course, Intro to Databases.",
     modalDescription: "Business Uses of Databases: Part 2 — Published with permission from Unext.com.",
     embedUrl: "https://player.vimeo.com/video/428646018",
@@ -124,7 +124,7 @@ export const SAMPLES_DATA: SampleItem[] = [
   {
     id: "functions-of-money",
     title: "Functions of Money",
-    thumbnail: "/media/uploads/2022/11/15/money_thumb.png",
+    thumbnail: "./media/uploads/2022/11/15/money_thumb.png",
     teaser: "I did this instructional video for an MBA level Economics course.",
     modalDescription: "Functions of Money — Published with permission from Unext.com.",
     embedUrl: "https://player.vimeo.com/video/427942642",
@@ -137,7 +137,7 @@ export const SAMPLES_DATA: SampleItem[] = [
   {
     id: "the-federal-reserve",
     title: "The Federal Reserve",
-    thumbnail: "/media/uploads/2022/11/15/fed_thumb.png",
+    thumbnail: "./media/uploads/2022/11/15/fed_thumb.png",
     teaser: "I did this instructional video for an MBA level Economics course.",
     modalDescription: "The Federal Reserve — Published with permission from Unext.com.",
     embedUrl: "https://player.vimeo.com/video/427581607",
@@ -150,7 +150,7 @@ export const SAMPLES_DATA: SampleItem[] = [
   {
     id: "the-islm-model",
     title: "The ISLM Model",
-    thumbnail: "/media/uploads/2022/11/15/islm_thumb.png",
+    thumbnail: "./media/uploads/2022/11/15/islm_thumb.png",
     teaser: "I did this instructional video for an MBA level Economics course.",
     modalDescription: "The ISLM Model — Published with permission from Unext.com.",
     embedUrl: "https://player.vimeo.com/video/427581624",
@@ -492,5 +492,5 @@ export const CONTACT_DATA: ContactData = {
   website: "https://tedfinger.me/",
   websiteDisplay: "tedfinger.me",
   linkedin: "https://www.linkedin.com/in/tedfinger",
-  resumeUrl: "/assets/aistudio/Ted_Finger_Resume_bfcabe48.pdf"
+  resumeUrl: "./assets/aistudio/Ted_Finger_Resume_bfcabe48.pdf"
 };
